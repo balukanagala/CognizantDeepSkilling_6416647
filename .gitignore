@@ -1,0 +1,7 @@
+".metadeta/" 
+"*.log" 
+"*.class" 
+".project" 
+".classpath" 
+".settings/" 
+"target/" 
