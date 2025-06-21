@@ -1,0 +1,18 @@
+package exercise2_FactoryMethodPattern;
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		documentFactory pdf = new pdfFactory();
+		Document doc1 = pdf.createDocument();
+		doc1.open();
+		
+		documentFactory word = new wordFactory();
+		Document doc2 = word.createDocument();
+		doc2.open();
+		
+		documentFactory excel = new excelFactory();
+		Document doc3 = excel.createDocument();
+		doc3.open();
+	}
+}

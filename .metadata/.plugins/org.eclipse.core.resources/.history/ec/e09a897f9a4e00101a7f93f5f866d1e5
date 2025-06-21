@@ -1,0 +1,11 @@
+package exercise2_FactoryMethodPattern.Factory;
+
+public class wordFactory extends documentFactory {
+
+	@Override
+	public Document createDocument() {
+		// TODO Auto-generated method stub
+		return new wordDocument();
+	}
+
+}

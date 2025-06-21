@@ -1,0 +1,33 @@
+package exercise2_FactoryMethodPattern.code;
+import exercise2_FactoryMethodPattern.code.Documents.*;
+import exercise2_FactoryMethodPattern.code.Factory.*;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String doc_type;
+		doc_type = sc.nextLine();
+		
+		switch(doc_type) {
+		case "pdf":
+			documentFactory docFactory = new pdfFactory();
+		case "word":
+			documentFactory docFactory = new wordFactory();
+		case "excel":
+			documentFactory docFactory = new excelFactory();
+		}
+		documentFactory pdf = new pdfFactory();
+		Document doc1 = pdf.createDocument();
+		doc1.open();
+		
+		documentFactory word = new wordFactory();
+		Document doc2 = word.createDocument();
+		doc2.open();
+		
+		documentFactory excel = new excelFactory();
+		Document doc3 = excel.createDocument();
+		doc3.open();
+	}
+}

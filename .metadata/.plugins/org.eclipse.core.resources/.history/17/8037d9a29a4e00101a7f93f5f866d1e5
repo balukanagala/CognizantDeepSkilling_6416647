@@ -1,0 +1,13 @@
+package exercise2_FactoryMethodPattern.Factory;
+
+import exercise2_FactoryMethodPattern.Documents.Document;
+import exercise2_FactoryMethodPattern.Documents.excelDocument;
+
+public class excelFactory extends documentFactory{
+
+	@Override
+	public Document createDocument() {
+		return new excelDocument();
+	}
+
+}

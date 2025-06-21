@@ -1,0 +1,6 @@
+package exercise2_FactoryMethodPattern;
+
+public abstract class documentFactory {
+	
+
+}

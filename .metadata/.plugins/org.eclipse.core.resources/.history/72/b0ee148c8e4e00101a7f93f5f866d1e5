@@ -1,0 +1,11 @@
+package exercise2_FactoryMethodPattern;
+
+public class pdfFactory extends documentFactory {
+
+	@Override
+	public Document createDocument() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

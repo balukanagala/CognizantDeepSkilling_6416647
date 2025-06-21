@@ -1,0 +1,10 @@
+package exercise2_FactoryMethodPattern;
+
+public class pdfDocument implements Document {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package exercise2_FactoryMethodPattern.Factory;
+
+public abstract class documentFactory {
+	public abstract Document createDocument();
+
+}

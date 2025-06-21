@@ -1,0 +1,21 @@
+package exercise2_FactoryMethodPattern.code;
+import exercise2_FactoryMethodPattern.code.Documents.*;
+import exercise2_FactoryMethodPattern.code.Factory.*;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		documentFactory pdf = new pdfFactory();
+		Document doc1 = pdf.createDocument();
+		doc1.open();
+		
+		documentFactory word = new wordFactory();
+		Document doc2 = word.createDocument();
+		doc2.open();
+		
+		documentFactory excel = new excelFactory();
+		Document doc3 = excel.createDocument();
+		doc3.open();
+	}
+}

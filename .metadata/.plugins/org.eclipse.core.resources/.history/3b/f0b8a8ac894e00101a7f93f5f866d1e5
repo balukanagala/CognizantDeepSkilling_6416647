@@ -1,0 +1,7 @@
+package exercise2_FactoryMethodPattern;
+
+public class documentFactory {
+	public Document createDocument(String doc_type) {
+		if(doc_type == "pdf") return new pdfDocument();
+	}
+}

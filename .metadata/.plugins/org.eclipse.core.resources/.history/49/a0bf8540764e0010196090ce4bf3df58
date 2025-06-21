@@ -1,0 +1,5 @@
+package exercise1_SingletonPattern.Code;
+
+public class Logger {
+
+}

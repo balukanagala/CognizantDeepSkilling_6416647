@@ -1,0 +1,11 @@
+package exercise2_FactoryMethodPattern;
+
+public class excelFactory extends documentFactory{
+
+	@Override
+	public Document createDocument() {
+		// TODO Auto-generated method stub
+		return new excelDocument();
+	}
+
+}
