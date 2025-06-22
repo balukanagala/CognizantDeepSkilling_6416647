@@ -4,9 +4,16 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="productObjs"/>
+			<item value="new "/>
+			<item value="productIds"/>
 			<item value="docpdf"/>
 		</list>
 		<list key="replacehistory">
+			<item value="ProductList"/>
+			<item value="pc.addProduct"/>
+			<item value="ProductIds"/>
+			<item value="ProductObjs"/>
 			<item value="pdf"/>
 		</list>
 	</section>

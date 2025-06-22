@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="exercise2_FactoryMethodPattern.Documents.Document"/>
     <fullyQualifiedTypeName name="exercise2_FactoryMethodPattern.code.Documents.Document"/>
     <fullyQualifiedTypeName name="javax.print.Doc"/>
+    <fullyQualifiedTypeName name="exercise2_ECommerceSearchFunction.code.Product"/>
 </qualifiedTypeNameHistroy>
