@@ -7,4 +7,4 @@ CREATE TABLE transactions (
     FOREIGN KEY (AccountID) REFERENCES accounts(AccountID)
 );
 commit;
-savepoint sp1;
+

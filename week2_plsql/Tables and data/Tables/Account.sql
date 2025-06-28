@@ -7,7 +7,7 @@ CREATE TABLE accounts (
     FOREIGN KEY (CustomerID) REFERENCES customers(c_id)
 );
 commit;
-savepoint sp1;
+
 
 describe accounts;
 select * from accounts;

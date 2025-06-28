@@ -7,4 +7,4 @@ CREATE TABLE employees (
     HireDate DATE
 ); 
 commit;
-savepoint sp1;
+

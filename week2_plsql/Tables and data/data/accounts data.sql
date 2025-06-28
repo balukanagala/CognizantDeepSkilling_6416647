@@ -9,6 +9,6 @@ into accounts (AccountID, CustomerID, AccountType, Balance, LastModified) values
 select 1 from dual;
 
 commit;
-savepoint sp1;
+
 
 select * from accounts;

@@ -43,7 +43,7 @@ alter table loans drop column due_date;
 
 
 commit;
-savepoint sp1;
+
 
 -- make the start,end,date as not null
 
@@ -56,4 +56,4 @@ modify start_date date not null;
 alter table loans
 modify end_date date not null;
 commit;
-savepoint sp2;
+

@@ -9,6 +9,6 @@ into employees (EmployeeID, Name, Position, Salary, Department, HireDate) values
 select 1 from dual;
 
 commit;
-SAVEPOINT sp1;
+
 
 select * from employees;

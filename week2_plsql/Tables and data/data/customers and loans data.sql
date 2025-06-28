@@ -87,7 +87,6 @@ update loans set start_date = to_date('1999-02-27','YYYY-MM-DD') where loan_id =
 update loans set start_date = to_date('2023-11-09','YYYY-MM-DD') where loan_id = 207; 
 commit;
 
-savepoint sp1;
 
 select * from customers;
 select * from loans;

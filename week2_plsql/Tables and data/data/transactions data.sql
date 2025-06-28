@@ -9,6 +9,6 @@ into transactions (TransactionID, AccountID, TransactionDate, Amount, Transactio
 select 1 from dual;
 
 commit;
-SAVEPOINT sp1;
+
 
 select * from transactions;
