@@ -110,6 +110,30 @@ public class calculatorTest {
 		 Exception exception = assertThrows(IllegalArgumentException.class, () -> {calci.div(10, 0)
 			 ;});
 		assertEquals("Cannot divide by zero",exception.getMessage(),"Exception message should match");
+		// assertEquals is used to just check the error msg as well
+		// not necessary to use all the time with assertThrows
 	}
-
 }
+
+/*
+ * The third argument in every assertion, is a message which will be showed if test fails.
+ * at Left Bottom
+ * */
+
+/*
+ * all about assert Throws
+ 
+ * <T extends Throwable> T assertThrows(Class<T> expectedType, Executable executable)
+ * T assertThrows(...)
+This method returns the exception object that was thrown.
+
+You can store it in a variable to inspect the message, cause, or other properties.
+
+🔹 Class<T> expectedType
+The type of exception you expect (e.g., IllegalArgumentException.class, ArithmeticException.class).
+
+🔹 Executable executable
+A block of code (often using a lambda) that should throw the exception.
+
+Syntax: () -> {  code that throws  }*/
+

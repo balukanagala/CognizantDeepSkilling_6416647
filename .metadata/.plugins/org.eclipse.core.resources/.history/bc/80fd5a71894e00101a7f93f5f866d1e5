@@ -1,6 +1,0 @@
-package exercise2_FactoryMethodPattern;
-import Document;
-
-public class documentFactory {
-	
-}

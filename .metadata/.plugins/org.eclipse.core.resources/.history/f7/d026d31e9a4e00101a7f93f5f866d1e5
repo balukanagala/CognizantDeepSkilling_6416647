@@ -1,5 +1,0 @@
-package exercise2_FactoryMethodPattern.Document;
-
-public interface Document {
-	void open();
-}

@@ -1,9 +1,0 @@
-package exercise2_FactoryMethodPattern;
-
-public class documentFactory {
-	public Document createDocument(String doc_type) {
-		if(doc_type == "pdf") return new pdfDocument();
-		else if(doc_type == "word") return new wordDocument();
-		else return new excelDocument();
-	}
-}
