@@ -6,3 +6,38 @@
 ".settings/" 
 "target/" 
 /.metadata/
+# Eclipse workspace files and internal metadata
+.metadata/
+*.lock_info
+*.log
+.project
+.classpath
+.settings/
+
+# Maven specific files (if you have them inside project folders)
+.mvn/
+pom.xml.tag
+pom.xml.bak
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven output directory
+target/
+
+# Other common build/temp files
+*.jar
+*.war
+*.ear
+*.zip
+*.rar
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
