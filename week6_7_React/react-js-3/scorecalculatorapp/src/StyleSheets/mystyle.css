@@ -1,0 +1,31 @@
+.name {
+    font-weight: 300;
+    color: blue;
+}
+
+.school {
+    color: crimson;
+}
+
+.total {
+    color: darkmagenta;
+}
+
+.score {
+    color: forestgreen;
+}
+
+.scorecard{
+    font-size: 20px;
+}
+
+.Heading{
+    font-size: xx-large;
+    color: brown;
+    font-weight: 600;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 25px;
+}
